@@ -981,25 +981,24 @@ header nav .form i {
     display: block;
     font-weight: bold;
     font-size: 60px;
-    position: relative;
 }
 
 .plan .head span::before {
     content: "$";
-    position: absolute;
-    left: 45px;
-    bottom: 70%;
+    position: relative;
+    top: -40px;
+    margin-right: 15px;
     font-weight: normal;
     font-size: 26px;
 }
 
 .plan .head span::after {
     content: "/Mo";
-    position: absolute;
-    right: 20px;
-    top: 50%;
+    position: relative;
+    right: -15px;
     font-size: 20px;
 }
+
 
 .plan ul {
     border-bottom: 1px solid #19c8fa;
